@@ -1,0 +1,17 @@
+jdbcUrl = jdbc:mysql://192.168.64.181/zyl_demo?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull
+user=root
+password=root
+devMode = true
+
+# 微信服务器回调所用的 token
+token=qbtest
+
+# 测试用的账号
+appId=wxff1912702bb12499
+appSecret=79c8a794498203d84d204c512881cb72
+
+#是否对消息进行加密，是否对消息进行加密，对应于微信平台的消息加解密方式，false支持明文模式及兼容模式，true支持安全模式及兼容模式
+encryptMessage=false
+#encodingAesKey=yourEncodingAesKey
+
+
